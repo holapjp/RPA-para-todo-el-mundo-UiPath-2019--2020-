@@ -1,0 +1,36 @@
+{
+  "name": "DudaCurso",
+  "description": "ealizar un filtro de datos en excel con uipath (adjunto imagen). Tengo un archivo en donde la primer columna (Color) , donde para cada color, tiene o no información dependiendo de las columnas que siguen (cod 1, cod 2, cod 3, cod 4) (cuadro 1) y necesito que se recorrer la columna color y vaya verificando si las siguiente columnas tienen información y si tienen copie la celda del nombre del color y la celda de la información y el encabezado del código que tiene esa información y esos 3 datos cop",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.Mail.Activities": "[1.8.5]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
